@@ -1,6 +1,8 @@
 import React from 'react';
 import { Container, LinksNavigation, Copyright, ContainerMain } from './styles';
 import { content, mediaSocials } from '../../services/Content';
+import { IoLogoWhatsapp } from 'react-icons/io';
+import { SiMinutemailer } from 'react-icons/si';
 // 
 
 export default function Footer() {
@@ -22,8 +24,8 @@ export default function Footer() {
           )) }
         </div>
         <div id="container-contact">
-          <h2>Whatsapp: { content.numberWhatsapp }</h2>
-          <h2>Email: { content.email }</h2>
+          <h2><IoLogoWhatsapp/> { content.numberWhatsapp }</h2>
+          <h2><SiMinutemailer/> { content.email }</h2>
         </div>
       </LinksNavigation>
     </Container>
