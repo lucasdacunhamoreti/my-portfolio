@@ -19,7 +19,7 @@ export const Container = styled.div`
 `;
 
 export const ContainerStacks = styled.div`
-  width: 75%;  
+  width: 500px;  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
