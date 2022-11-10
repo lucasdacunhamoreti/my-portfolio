@@ -19,13 +19,13 @@ export const Container = styled.div`
 `;
 
 export const ContainerStacks = styled.div`
-  width: 500px;  
+  width: 650px;  
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px) {
     width: 90%;
   }
 `;
@@ -52,7 +52,7 @@ export const Card = styled.div`
     font-size: 25px;
   }
 
-  @media only screen and (max-width: 500px) {
+  @media only screen and (max-width: 700px) {
     width: 90px;
     height: 90px;
   
