@@ -3,7 +3,7 @@ import { Container } from './styles';
 import imgAppReceitas from '../../images/app-receitas.png';
 import imgTrybeWallet from '../../images/trybe-wallet.png';
 import imgDashboard from '../../images/dashboard.png';
-import imgMedievalStore from '../../images/medieval-store.png';
+import imgMedievalStore from '../../images/test.png';
 
 import { AiFillGithub } from 'react-icons/ai';
 import { TbNotebook } from 'react-icons/tb';

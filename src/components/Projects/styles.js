@@ -3,9 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.section`
   background-color: #1C1C21;
   padding: 30px;
-  /* height: 900px; */
   width: 100%;
-  /* padding: 10px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,10 +23,9 @@ export const Container = styled.section`
  }
 
  .images-projects {
-  width: 500px;
-  height: 270px;
+  width: 430px;
+  height: 320px;
   border-radius: 8px;
-  border: 1px solid white;
  }
 
  .content-projects {
