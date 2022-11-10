@@ -22,7 +22,7 @@ export const ContainerStacks = styled.div`
   width: 75%;  
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
 
   @media only screen and (max-width: 500px) {
