@@ -1,10 +1,11 @@
 import React from 'react';
-import { Container, LinksNavigation, Copyright } from './styles';
+import { Container, LinksNavigation, Copyright, ContainerMain } from './styles';
 import { content, mediaSocials } from '../../services/Content';
 // 
 
 export default function Footer() {
   return (
+    <ContainerMain>
     <Container>
       <LinksNavigation>
         <div>
@@ -25,9 +26,10 @@ export default function Footer() {
           <h2>Email: { content.email }</h2>
         </div>
       </LinksNavigation>
+    </Container>
       <Copyright>
         <span>Copyright © 2022 Lucas da Cunha Moreti</span>
       </Copyright>
-    </Container>
+    </ContainerMain>
   )
 }

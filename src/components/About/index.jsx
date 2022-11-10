@@ -8,8 +8,8 @@ export default function About() {
   return (
     <Container id="about">
       <div id="container-logos">
-        <a href={ content.linkLinkedin }><GrLinkedinOption id="logoLinkedin" /></a>
-        <a href={ content.linkGithub }><GrGithub id="logoGithub"/></a>
+        <a href={ content.linkLinkedin } target="_blank"><GrLinkedinOption id="logoLinkedin"/></a>
+        <a href={ content.linkGithub } target="_blank"><GrGithub id="logoGithub"/></a>
       </div>
       <img src={ imgProfile } alt="imgProfile"/>
       <Description>

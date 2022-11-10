@@ -54,7 +54,13 @@ export const LinksNavigation = styled.div`
 export const Copyright = styled.div`
   display: flex;
   justify-content: center;
+  padding: 5px;
+  align-items: center;
   color: white;
-  margin-top: 10px;
   text-shadow: 0 0 10px white;
+
+`;
+
+export const ContainerMain = styled.div`
+  background-color: #9031E6;
 `;
