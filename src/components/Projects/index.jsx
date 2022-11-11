@@ -4,6 +4,7 @@ import imgAppReceitas from '../../images/app-receitas.png';
 import imgTrybeWallet from '../../images/trybe-wallet.png';
 import imgDashboard from '../../images/dashboard.png';
 import imgMedievalStore from '../../images/test.png';
+import imgFrontOnlineStore from '../../images/frontend-online-store.png';
 
 import { AiFillGithub } from 'react-icons/ai';
 import { TbNotebook } from 'react-icons/tb';
@@ -43,6 +44,14 @@ export default function Projects() {
               <h2>Medieval Store API</h2>
               <img className="images-projects" src={ imgMedievalStore } alt="test"/>
               <a href="https://github.com/lucasdacunhamoreti/medieval-store-api" target="_blank" rel="noreferrer"><button className="btn btn-info">Link do repositório <AiFillGithub className="icon-github-projects"/></button></a>
+            </div>
+          </div>
+
+          <div className="carousel-item">
+            <div className="content-projects">
+              <h2>Frontend Online Store</h2>
+              <img className="images-projects" src={ imgFrontOnlineStore } alt="test"/>
+              <a href="https://github.com/lucasdacunhamoreti/frontend-online-store" target="_blank" rel="noreferrer"><button className="btn btn-info">Link do repositório <AiFillGithub className="icon-github-projects"/></button></a>
             </div>
           </div>
         </div>
