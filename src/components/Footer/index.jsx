@@ -3,6 +3,7 @@ import { Container, LinksNavigation, Copyright, ContainerMain } from './styles';
 import { content, mediaSocials } from '../../services/Content';
 import { IoLogoWhatsapp } from 'react-icons/io';
 import { SiMinutemailer } from 'react-icons/si';
+import { BsLinkedin, BsFacebook, BsInstagram, BsGithub } from 'react-icons/bs';
 // 
 
 export default function Footer() {
@@ -10,18 +11,37 @@ export default function Footer() {
     <ContainerMain>
     <Container>
       <LinksNavigation>
-        <div>
-          <h2>MENU</h2>
-          <a href="#home"><h4>Home</h4></a>
-          <a href="#about"><h4>Sobre</h4></a>
-          <a href="#projects"><h4>Projetos</h4></a>
-          <a href="#contact"><h4>Contato</h4></a>
-        </div>
-        <div>
+        {/* <div>
           <h2>REDES SOCIAIS</h2>
           { mediaSocials.map(({link, title},index) => (
             <a key={ index } href={ link } target="_blank" rel="noreferrer"><h4>{ title }</h4></a>
           )) }
+        </div> */}
+        <div className="container-social-network">
+          <a href="https://www.linkedin.com/in/lucas-da-cunha-moreti/" target="_blank">
+            <div className="div-icons">
+              <BsLinkedin className="icons"/>
+            </div>
+          </a>
+
+          <a href="https://www.facebook.com/LucasdaCunhaMoreti" target="_blank">
+            <div className="div-icons">
+              <BsFacebook className="icons"/>
+            </div>
+          </a>
+
+          <a href="https://www.instagram.com/https_lukinha/" target="_blank">
+            <div className="div-icons">
+              <BsInstagram className="icons"/>
+            </div>
+          </a>
+
+          <a href="https://github.com/lucasdacunhamoreti" target="_blank">
+            <div className="div-icons">
+              <BsGithub className="icons"/>
+            </div>
+          </a>
+          
         </div>
         <div id="container-contact">
           <h2><IoLogoWhatsapp/> { content.numberWhatsapp }</h2>

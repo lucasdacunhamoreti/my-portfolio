@@ -37,6 +37,37 @@ export const LinksNavigation = styled.div`
     color: #FDED98;
   }
 
+  .container-social-network {
+    flex-direction: row;
+    /* justify-content: space-between; */
+    align-items: center;
+    width: 20%;
+    max-width: 250px;
+  }
+
+  .div-icons {
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #121214;
+    margin: 5px;
+  }
+
+  .icons {
+    width: 25px;
+    height: 25px;
+    color: #9031E6;
+  }
+
+  .div-icons:hover {
+    background-color: #9031E6;
+    transition: 0.5s;
+    
+    .icons {
+      color: white;
+      transition: 0.5s;
+    }
+  }
+
   @media only screen and (max-width: 700px) {
     flex-wrap: wrap;
 
@@ -48,6 +79,19 @@ export const LinksNavigation = styled.div`
     > div h2 {
       font-size: 80%;
     }
+
+  .icons {
+    width: 20px;
+    height: 20px;
+  }
+
+  .div-icons {
+    padding: 8px;
+  }
+
+  .container-social-network {
+    width: 100%;
+  }
   }
 `;
 
@@ -57,10 +101,11 @@ export const Copyright = styled.div`
   padding: 5px;
   align-items: center;
   color: white;
-  text-shadow: 0 0 10px white;
+  background-color: #26262C;
+  /* text-shadow: 0 0 10px white; */
 
 `;
 
 export const ContainerMain = styled.div`
-  background-color: #9031E6;
+  /* background-color: #9031E6; */
 `;
