@@ -10,7 +10,6 @@ import { Container } from './styles';
 
 export default function MainPage() {
   return (
-
       <Container>
           <Header />
           <About />
